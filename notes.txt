@@ -1,0 +1,14 @@
+/* Page AutoLoad */
+
+<script>
+window.onload = function () {
+      load_data();
+      
+};
+$(document).ready(function() {
+  setInterval(load_data, 800);
+});
+</script>
+
+-----------------------
+
